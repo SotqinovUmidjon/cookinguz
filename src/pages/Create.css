@@ -1,0 +1,53 @@
+.create {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+input {
+	width: 100%;
+	padding: 5px;
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #000;
+}
+.App.night input{
+	background-color: #7e7c7c;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.App.night textarea {
+	background-color: #7e7c7c;
+	border: 1px solid #fff;
+	color: #fff;
+
+}
+textarea{
+	padding: 5px;
+}
+.input1 {
+	width: 69%;
+	margin-right: 5px;
+}
+.btn1{
+	text-align: center;
+}
+.input button{
+	padding: 0px 10px;
+	height: 30px;
+	background-color: blueviolet;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+.createH1 {
+	margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+	.input1 {
+		width: 69%;
+	}
+}
